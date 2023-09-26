@@ -13,3 +13,8 @@ print("some text")
 
 # Commit to remote repository
 
+# Task 2 - Multi line comments
+
+# Display message to the screen
+print("Welcome to COM411!")
+print("In week 1 we will learn...")
