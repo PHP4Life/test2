@@ -44,14 +44,37 @@
 #
 
 # Task 5 - Comparison Operators
-number1 = input("Enter your first number: ")
-number2 = input("Enter your second number: ")
+# numberC1 = input("Enter your first number:")
+# numberC2 = input("Enter your second number:")
+#
+# if int(numberC1) < int(numberC2):
+#     print("The first number is the smallest")
+# elif int(numberC1) > int(numberC2):
+#     print("The second number is the smallest")
+# else:
+#     print("Both are equal")
 
-if int(number1) < int(number2):
-    print("The first number is the smallest")
-elif int(number1) > int(number2):
-    print("The second number is the smallest")
+# Task 6 - Counter to keep track of odd or even numbers
+numberW1 = input("Enter your first number:")
+numberW2 = input("Enter your second number:")
+numberW3 = input("Enter your third number:")
+
+oddCounter = 0
+evenCounter = 0
+
+if int(numberW1) % 2 == 0:
+    evenCounter += 1
 else:
-    print("Both are equal")
+    oddCounter += 1
 
-# Task 6 -
+if int(numberW2) % 2 == 0:
+    evenCounter += 1
+else:
+    oddCounter += 1
+
+if int(numberW3) % 2 == 0:
+    evenCounter += 1
+else:
+    oddCounter += 1
+
+print(f"There are {evenCounter} even and {oddCounter} odd numbers")
