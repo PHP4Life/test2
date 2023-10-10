@@ -7,3 +7,5 @@ apples_removed = 0
 while int(apples) > apples_removed:
     apples_removed += 1
     print("Removed Apples")
+
+# Task 2 -
