@@ -8,3 +8,7 @@ for numberOfRows in range(int(rows)):
     for numberOfColumns in range(int(columns)):
         print(":-)", end=" ")
     print("  ")
+
+# Task 2 - enter a sequence of characters consisting of dashes and two markers
+sequence = input()
+marker = input("Enter a character representing a marker: ")
