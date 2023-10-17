@@ -34,7 +34,15 @@ def cross_bridge(steps):
     print("we must keep going!")
 
 
+def climb_ladder(steps_remaining, number_of_steps):
+    if steps_remaining > number_of_steps:
+        print("Still some way to go!")
+    else:
+        print("We are almost there!")
+
+
 listen()
 identify()
-escape_by(input("Enter a way to escape the boulder"))
-cross_bridge(6)
+escape_by(input("Enter a way to escape the boulder: "))
+cross_bridge(input("Enter how many steps over the bridge: "))
+climb_ladder(10, 5)
