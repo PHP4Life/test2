@@ -1,4 +1,4 @@
-# Custom Functions
+# Activity 2 - Custom Functions
 
 # Task 1 - Text adventure game
 
@@ -46,3 +46,19 @@ identify()
 escape_by(input("Enter a way to escape the boulder: "))
 cross_bridge(input("Enter how many steps over the bridge: "))
 climb_ladder(10, 5)
+
+
+# Activity 3 - Multiple User Defined Functions
+
+def display_ladder(steps):
+    for ladder in range(int(steps)):
+        print("| |")
+        print("***")
+
+
+def create_ladder():
+    number_of_steps = input("How many steps remain? ")
+    display_ladder(number_of_steps)
+
+
+create_ladder()
