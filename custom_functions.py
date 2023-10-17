@@ -26,6 +26,15 @@ def escape_by(plan):
         print("We cannot escape that way! The boulder is in the way!")
 
 
+def cross_bridge(steps):
+    for crossing in range(steps):
+        print("Crossed step.")
+    if steps > 5:
+        print("The bridge is collapsing!")
+    print("we must keep going!")
+
+
 listen()
 identify()
 escape_by(input("Enter a way to escape the boulder"))
+cross_bridge(6)
