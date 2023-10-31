@@ -1,4 +1,4 @@
-# Week 6 - Files
+# Week 6 -  txt Files
 
 # Task 1 - Book sorting program
 def search_books(path):
