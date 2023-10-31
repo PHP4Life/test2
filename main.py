@@ -1,20 +1,31 @@
+# Week 6 - Files
 
-# Task 1 - Print Text
-print("Welcome to COM411!")
+# Task 1 - Book sorting program
+def search_books(path):
+    print("Searching...")
+    sections = ""
+    books = "Books:\n"
+    with open(path) as file:
+        for line in file:
+            if line.startswith("Section"):
+                sections += line
+            else:
+                books += line
+    print("Done!")
 
-# This is a comment
+    return f"{sections}\n\n{books}"
 
-# Print an empty string
-print()
 
-''' Displays "some text" to the standard output. 
-It is preferable to place comments before the code. '''
-print("some text")
+def save_books(path, data):
+    print("Saving...")
+    with open(path, "w") as file:
+        file.write(data)
+    print("Done!")
 
-# Commit to remote repository
 
-# Task 2 - Multi line comments
+def run_program():
+    data = search_books("library/books.txt")
+    save_books("library/exported_books", data)
 
-# Display message to the screen
-print("Welcome to COM411!")
-print("In week 1 we will learn...")
+
+run_program()
