@@ -1,5 +1,6 @@
 # Week 6 -  csv Files
 
+# Task - create a program to export user data as a CSV file.
 def export(path, num_items):
     print("Exporting...")
     with open(path, "a") as file:
