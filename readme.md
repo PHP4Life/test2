@@ -1,5 +1,5 @@
 # Main Repository for COMP 411 
-## Week 4 - Order Data Structures:
+## Week 5 - Order Data Structures:
 ### 1 - Lists
 ### 2 - Tuples
 
