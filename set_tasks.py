@@ -23,17 +23,17 @@ def remove_observations(obs_list):
             running = False
 
 
-def run_task3():
-    observations = observed_items()
-    remove_observations(observations)
+def run_task():
+    observation_list = observed_items()
+    remove_observations(observation_list)
     observations_set = set()
 
-    for observation in observations:
-        data = (observation, observations.count(observation))
+    for observation in observation_list:
+        data = (observation, observation_list.count(observation))
         observations_set.add(data)
 
     for data in sorted(observations_set):
         print(f"{data[0]} observed {data[1]} times.")
 
 
-run_task3()
+run_task()
