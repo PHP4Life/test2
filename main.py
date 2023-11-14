@@ -21,20 +21,20 @@ def display_line(x_values, y_values):
 # Task 2 - Display multiple graphs
 
 def small():
-    x = [3, 4, 3, 4, 3, 3, 4, 4]
-    y = [3, 3, 4, 4, 3, 4, 3, 4]
+    x = [3, 3, 4, 4, 3]
+    y = [3, 4, 4, 3, 3]
     plt.plot(x, y, 'ro:')
 
 
 def medium():
-    x = [2, 5, 2, 5, 2, 2, 5, 5]
-    y = [2, 2, 5, 5, 2, 5, 2, 5]
+    x = [2, 2, 5, 5, 2]
+    y = [2, 5, 5, 2, 2]
     plt.plot(x, y, 'gs--')
 
 
 def large():
-    x = [1, 6, 1, 6, 1, 1, 6, 6, 1, 6]
-    y = [1, 6, 6, 6, 1, 6, 1, 6, 1, 1]
+    x = [1, 1, 1, 6, 6, 1, 6]
+    y = [1, 6, 6, 6, 1, 1, 1]
     plt.plot(x, y, 'bp-')
 
 
