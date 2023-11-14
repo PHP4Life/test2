@@ -18,7 +18,7 @@ def display_line(x_values, y_values):
 #
 # run_task1()
 
-# Task 2 -
+# Task 2 - Display multiple graphs
 
 def small():
     x = [3, 4, 3, 4, 3, 3, 4, 4]
