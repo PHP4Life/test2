@@ -10,12 +10,12 @@ def display_line(x_values, y_values):
     plt.show()
 
 
-# def run_task1():
-#     x_values = [1, 2, 3, 4, 5] # Values for the x-axis
-#     y_values = [1, 4, 9, 16, 25] # Values for the y-axis
-#     display_line(x_values, y_values)
-#
-#
+def run_task1():
+    x_values = [1, 2, 3, 4, 5] # Values for the x-axis
+    y_values = [1, 4, 9, 16, 25] # Values for the y-axis
+    display_line(x_values, y_values)
+
+
 # run_task1()
 
 # Task 2 - Display multiple graphs
@@ -46,3 +46,28 @@ def run_task2():
 
 
 run_task2()
+
+# Task 3 -
+
+def coordinate():
+    x = input("Enter an x-axis value")
+    y = input("Enter an y-axis value")
+
+    return x, y
+
+
+def path():
+    print("Retrieving path...")
+
+    x_values = []
+    y_values = []
+
+    for i in range(4):
+
+## To complete later.
+
+
+
+
+def run_task3():
+
