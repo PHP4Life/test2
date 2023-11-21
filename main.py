@@ -2,6 +2,7 @@
 from human import Human
 from robot import Robot
 from planet import Planet
+from universe import Universe
 
 if __name__ == "__main__":
     human1 = Human()
@@ -18,3 +19,7 @@ if __name__ == "__main__":
     planet1.add_human(5)
     planet1.add_robot(5)
     print(repr(planet1))
+
+    universe1 = Universe()
+    universe1.generate("hello")
+    print(universe1)
