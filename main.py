@@ -15,6 +15,6 @@ if __name__ == "__main__":
     print(repr(robot1))
 
     planet1 = Planet()
-    planet1.add_human(2)
+    planet1.add_human(5)
     planet1.add_robot(5)
-    print(planet1)
+    print(repr(planet1))
