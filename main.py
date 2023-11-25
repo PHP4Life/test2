@@ -23,3 +23,4 @@ if __name__ == "__main__":
     universe1 = Universe()
     universe1.generate("hello")
     print(universe1)
+    print("hello")
