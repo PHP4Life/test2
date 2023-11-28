@@ -16,12 +16,12 @@ if __name__ == "__main__":
     print(robot1)
     print(repr(robot1))
 
-    # planet1 = Planet()
-    # planet1.add_human(5)
-    # planet1.add_robot(5)
-    # print(repr(planet1))
-    #
-    # universe1 = Universe()
-    # universe1.generate("hello")
-    # print(universe1)
-    # print("hello")
+    planet1 = Planet()
+    planet1.add_inhabitant(5)
+    planet1.add_inhabitant(5)
+    print(repr(planet1))
+
+    universe1 = Universe()
+    universe1.generate("hello")
+    print(universe1)
+    print("hello")
