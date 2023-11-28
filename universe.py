@@ -2,8 +2,7 @@ import random
 import matplotlib.pyplot as plt
 
 from planet import Planet
-from robot import Robot
-from human import Human
+from inhabitants.human import Human
 
 
 class Universe:

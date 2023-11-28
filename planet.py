@@ -1,8 +1,3 @@
-from inhabitant import Inhabitant
-from human import Human
-from robot import Robot
-
-
 class Planet:
 
     def __init__(self):

@@ -1,6 +1,6 @@
 # Week 9 - Object Oriented Programming
-from human import Human
-from robot import Robot
+from inhabitants.human import Human
+from inhabitants.robot import Robot
 from planet import Planet
 from universe import Universe
 
