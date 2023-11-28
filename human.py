@@ -1,4 +1,6 @@
-class Human:
+from inhabitant import Inhabitant
+
+class Human(Inhabitant):
     MAX_ENERGY = 100
 
     # Constructor
